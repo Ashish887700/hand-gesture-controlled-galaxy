@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Tracking Galaxy</title>
+
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.152.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+    <div id="canvas-container">
+        <div id="ui-layer">
+            <div>Mini Galaxy Interactive</div>
+            <div id="fps-counter">Loading Hand Tracking...</div>
+        </div>
+        <div id="status" class="status-msg">Requesting Camera Access...</div>
+    </div>
+
+    <div id="webcam-container">
+        <video id="webcam-video" playsinline></video>
+        <canvas id="output-canvas"></canvas>
+        <div id="chaos-label" class="data-label">Chaos: 0</div>
+        <div id="scale-label" class="data-label">Scale: 1</div>
+    </div>
+</div>
+
+<!-- 👇 TUMHARA JS SAME AS IT IS -->
+<script>
+/* 🔥 JS CODE SAME RAHEGA – NO CHANGE 🔥 */
+/* (jo tumne diya hai wahi rehne do) */
+</script>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>
